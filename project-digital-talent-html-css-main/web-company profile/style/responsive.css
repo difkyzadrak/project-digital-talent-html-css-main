@@ -1,0 +1,48 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .banner h1 {
+    font-size: 32px;
+  }
+
+  .top-main h1 {
+    font-size: 20px;
+  }
+  
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-left {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .banner {
+    text-align: left;
+  }
+  
+  .banner h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .banner p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
